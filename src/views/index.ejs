@@ -13,7 +13,6 @@
             <h1>Dificultad: <%=dificultad.getDificultad()%></h1>
             <h3>Categoria: <%=categoriaYPregunta.getCategoria()%></h3>
             <img src="<%=categoriaYPregunta.getImagen()%>" class="caja-imagen" alt=""> 
-            <h3>Por $ <%=premio.getCantidadDinero()%></h3> 
             <h3>Pregunta: <%=categoriaYPregunta.getPregunta().getContenidoPregunta()%></h3> 
             <form action="/enviarRespuesta" method="POST">
                 <div class="caja-opciones">
@@ -24,25 +23,30 @@
                         </div>
                     <%})%>
                 </div>
-                <input type="submit" name="enviar" id="enviar" value="ENVIAR RESPUESTA">
+                <br>
+                <input type="submit" class="send" name="enviar" id="enviar" value="ENVIAR RESPUESTA">
                 <input type="hidden" name="category" value="<%=categoriaYPregunta.getIdCategoria()%>">
                 <input type="hidden" name="question" value="<%=categoriaYPregunta.getPregunta().getIdPregunta()%>">
                 <input type="hidden" name="dificult" value="<%=dificultad.getIdDificultad()%>">
                 <input type="hidden" name="prize" value="<%=premio.getCantidadDinero()%>">
+                <input type="hidden" name="user" value="<%=usuario%>">
             </form>
+            <br>
             <form action="/terminar">
                 <input type="hidden" value="retirado" name="retirado" >
-                <input type="submit" name="enviar" id="enviar" value="RETIRARSE">
+                <input type="hidden" value="<%=usuario%>" name="userRetirado" >
+                <input type="submit" name="enviar" class="send" id="enviar" value="RETIRARSE">
             </form>
         </section>
         <section class="premios">
-            <ul >
-                <li>100000</li>
-                <li>256767</li>
-                <li>3567567</li>
-                <li>556756757</li>
-                <li>7567567657</li>
-            </ul>
+            <label for="pre">Premio de la ronda</label>
+            <ol>
+                <li class="<%= dificultad.getIdDificultad()== 1 ? 'selec' : 'noselec'%>">$ 100.000</li>
+                <li class="<%= dificultad.getIdDificultad()== 2 ? 'selec' : 'noselec'%>">$ 500.000</li>
+                <li class="<%= dificultad.getIdDificultad()== 3 ? 'selec' : 'noselec'%>">$ 1'000.000</li>
+                <li class="<%= dificultad.getIdDificultad()== 4 ? 'selec' : 'noselec'%>">$ 5'000.000</li>
+                <li class="<%= dificultad.getIdDificultad()== 5 ? 'selec' : 'noselec'%>">$ 10'000.000</li>
+            </ol>
         </section>
 
 

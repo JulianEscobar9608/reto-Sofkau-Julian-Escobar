@@ -1,4 +1,5 @@
 const Jugador = require('../entities/Jugador');
+const RondaDao = require('../dao/RondaDao');
 const fs = require('fs');
 const path = require('path');
 
@@ -8,7 +9,16 @@ class JugadorDao{
         return JSON.parse(fs.readFileSync(path.resolve('src/data/jugadores.json')));
     }
 
+    static obtenerJugadores(){
 
+        let jugadores = this.#leerJugadores();
+        let arregloJugadores = [];
+        jugadores.forEach(jugador=>{
+            arregloJugadores.push(new Jugador(jugador.idJugador, jugador.nombreUsuario,jugador.ganadas,jugador.retiradas,jugador.perdidas))
+        });
+        return arregloJugadores;
+
+    }
 
     static buscarJugador(usuario){
         let jugadores = this.#leerJugadores();
@@ -18,7 +28,7 @@ class JugadorDao{
         }else{
             for(let i = 0;i<jugadores.length;i++){
                 if(jugadores[i].nombreUsuario == usuario){
-                    jugador = new Jugador(jugadores[i].idJugador,jugadores[i].nombreUsuario);
+                    jugador = new Jugador(jugadores[i].idJugador,jugadores[i].nombreUsuario,jugadores[i].ganadas,jugadores[i].retiradas,jugadores[i].perdidas);
                     break;
                 }
             }        
@@ -45,6 +55,22 @@ class JugadorDao{
         }
         
     }
+
+    static actualizarJugador(nombreJugador){
+
+        let jugadores = this.#leerJugadores();
+        for(let i = 0;i<jugadores.length;i++){
+            if(jugadores[i].nombreUsuario == nombreJugador){
+                jugadores[i].ganadas = RondaDao.calcularPartidasGanadas(nombreJugador);
+                jugadores[i].retiradas = RondaDao.calcularPartidasRetiradas(nombreJugador);
+                jugadores[i].perdidas = RondaDao.calcularPartidasPerdidas(nombreJugador);
+                break;
+            }
+        }
+        fs.writeFileSync(path.resolve('src/data/jugadores.json'),JSON.stringify(jugadores, null, 2));
+    }
+
+    
 
 }
 

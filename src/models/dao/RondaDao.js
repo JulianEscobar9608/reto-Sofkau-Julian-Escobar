@@ -30,6 +30,39 @@ class RondaDao {
         }
     }
 
+    static calcularPartidasGanadas(nombreUsuario){
+        let rondas = this.#leerRondas();
+        let contador = 0
+        rondas.forEach(ronda =>{
+            if(ronda.jugador == nombreUsuario && ronda.estadoPartida == 'Ganada'){
+                contador += 1;
+            }
+        });
+        return contador;
+    }
+
+    static calcularPartidasRetiradas(nombreUsuario){
+        let rondas = this.#leerRondas();
+        let contador = 0
+        rondas.forEach(ronda =>{
+            if(ronda.jugador == nombreUsuario && ronda.estadoPartida == 'Retirado'){
+                contador += 1;
+            }
+        });
+        return contador;
+    }
+
+    static calcularPartidasPerdidas(nombreUsuario){
+        let rondas = this.#leerRondas();
+        let contador = 0
+        rondas.forEach(ronda =>{
+            if(ronda.jugador == nombreUsuario && ronda.estadoPartida == 'Perdida'){
+                contador += 1;
+            }
+        });
+        return contador;
+    }
+
 
 }
 

@@ -1,184 +1,55 @@
 [
   {
     "idRonda": 1,
-    "jugador": "UsuarioPrueba",
-    "estadoPartida": "Perdida",
-    "cantidadGanada": 0
-  },
-  {
-    "idRonda": 2,
-    "jugador": "agroempr",
-    "estadoPartida": "Retirado",
-    "cantidadGanada": "1000000"
-  },
-  {
-    "idRonda": 3,
-    "jugador": "re456",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 4,
-    "jugador": "re456",
-    "estadoPartida": "Perdida",
-    "cantidadGanada": "0"
-  },
-  {
-    "idRonda": 5,
-    "jugador": "re456",
-    "estadoPartida": "Retirado",
-    "cantidadGanada": 0
-  },
-  {
-    "idRonda": 6,
-    "jugador": "",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 7,
-    "jugador": "user",
-    "estadoPartida": "Retirado",
-    "cantidadGanada": 0
-  },
-  {
-    "idRonda": 8,
-    "jugador": "UsuarioPrueba",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 9,
-    "jugador": "agroempr",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 10,
-    "jugador": "UsuarioPrueba",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 11,
-    "jugador": "re456",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 12,
-    "jugador": "UsuarioPrueba",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 13,
-    "jugador": "user",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 14,
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 15,
-    "jugador": "UsuarioPrueba",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 16,
-    "jugador": "agroempr",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 17,
-    "jugador": "user",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 18,
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 19,
-    "jugador": "agroempr",
-    "estadoPartida": "Perdida",
-    "cantidadGanada": "0"
-  },
-  {
-    "idRonda": 20,
-    "jugador": "UsuarioPrueba",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 21,
-    "jugador": "user",
-    "estadoPartida": "Retirado",
-    "cantidadGanada": "500000"
-  },
-  {
-    "idRonda": 22,
-    "jugador": "agroempr",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 23,
-    "jugador": "re456",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 24,
-    "estadoPartida": "Perdida",
-    "cantidadGanada": "0"
-  },
-  {
-    "idRonda": 25,
-    "jugador": "user",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 26,
     "jugador": "user",
     "estadoPartida": "Retirado",
     "cantidadGanada": "100000"
   },
   {
-    "idRonda": 27,
-    "jugador": "re456",
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 28,
-    "estadoPartida": "Ganada",
-    "cantidadGanada": "10000000"
-  },
-  {
-    "idRonda": 29,
+    "idRonda": 2,
     "jugador": "user",
     "estadoPartida": "Perdida",
     "cantidadGanada": "0"
   },
   {
-    "idRonda": 30,
-    "jugador": "re456",
+    "idRonda": 3,
+    "jugador": "user",
+    "estadoPartida": "Retirado",
+    "cantidadGanada": 0
+  },
+  {
+    "idRonda": 4,
+    "jugador": "user",
+    "estadoPartida": "Perdida",
+    "cantidadGanada": "0"
+  },
+  {
+    "idRonda": 5,
+    "jugador": "user",
+    "estadoPartida": "Ganada",
+    "cantidadGanada": "10000000"
+  },
+  {
+    "idRonda": 6,
+    "estadoPartida": "Perdida",
+    "cantidadGanada": "0"
+  },
+  {
+    "idRonda": 7,
+    "jugador": "UsuarioPrueba",
+    "estadoPartida": "Perdida",
+    "cantidadGanada": "0"
+  },
+  {
+    "idRonda": 8,
+    "jugador": "julian",
     "estadoPartida": "Retirado",
     "cantidadGanada": "1000000"
   },
   {
-    "idRonda": 31,
-    "jugador": "user",
-    "estadoPartida": "Retirado",
-    "cantidadGanada": "5000000"
+    "idRonda": 9,
+    "jugador": "julian",
+    "estadoPartida": "Ganada",
+    "cantidadGanada": "10000000"
   }
 ]

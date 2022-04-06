@@ -13,11 +13,11 @@ app.use(express.static(path.resolve('public')));
 
 app.use(session({
     secret: "Mensaje Secreto",
-    resave: false,
+    resave: true,
     saveUninitialized: true
   }
 ));
 app.use('/',gameRoutes);
 
 
-app.listen(process.env.PORT || 3000,()=> console.log("Corriendo aplicacion en puerto "));
+app.listen(process.env.PORT || 3050,()=> console.log("Corriendo aplicacion en puerto "));
