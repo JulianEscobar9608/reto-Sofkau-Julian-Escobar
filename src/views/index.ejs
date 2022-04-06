@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="contenedor-principal">
+        <section class="caja-juego">
+            <h1>Dificultad: <%=dificultad.getDificultad()%></h1>
+            <h3>Categoria: <%=categoriaYPregunta.getCategoria()%></h3>
+            <img src="<%=categoriaYPregunta.getImagen()%>" class="caja-imagen" alt=""> 
+            <h3>Por $ <%=premio.getCantidadDinero()%></h3> 
+            <h3>Pregunta: <%=categoriaYPregunta.getPregunta().getContenidoPregunta()%></h3> 
+            <form action="/enviarRespuesta" method="POST">
+                <div class="caja-opciones">
+                    <%opciones.forEach(opcion =>{ %>
+                        <diV class="caja-opcion">
+                            <input type="radio" id="huey" name="respuesta" value="<%=opcion%>" required="true">
+                            <label for="huey"><%=opcion%></label>
+                        </div>
+                    <%})%>
+                </div>
+                <input type="submit" name="enviar" id="enviar" value="ENVIAR RESPUESTA">
+                <input type="hidden" name="category" value="<%=categoriaYPregunta.getIdCategoria()%>">
+                <input type="hidden" name="question" value="<%=categoriaYPregunta.getPregunta().getIdPregunta()%>">
+                <input type="hidden" name="dificult" value="<%=dificultad.getIdDificultad()%>">
+                <input type="hidden" name="prize" value="<%=premio.getCantidadDinero()%>">
+            </form>
+            <form action="/terminar">
+                <input type="hidden" value="retirado" name="retirado" >
+                <input type="submit" name="enviar" id="enviar" value="RETIRARSE">
+            </form>
+        </section>
+        <section class="premios">
+            <ul >
+                <li>100000</li>
+                <li>256767</li>
+                <li>3567567</li>
+                <li>556756757</li>
+                <li>7567567657</li>
+            </ul>
+        </section>
+
+
+    </section>
+    
+</body>
+</html>

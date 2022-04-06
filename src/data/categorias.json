@@ -1,0 +1,27 @@
+[
+    {
+        "idCategoria":"1",
+        "nombreCategoría": "Ciencias Naturales",
+        "imagen": "/img/ciencias.jpg"
+    },
+    {
+        "idCategoria":"2",
+        "nombreCategoría": "Geografía e Historia",
+        "imagen": "/img/sociales.jpg"
+    },
+    {
+        "idCategoria":"3",
+        "nombreCategoría": "Matemáticas",
+        "imagen": "/img/matematicas.jpg"
+    },
+    {
+        "idCategoria":"4",
+        "nombreCategoría": "Literatura",
+        "imagen": "/img/literatura.jpg"
+    },
+    {
+        "idCategoria":"5",
+        "nombreCategoría": "Deportes",
+        "imagen": "/img/deportes.jpg"
+    }
+]

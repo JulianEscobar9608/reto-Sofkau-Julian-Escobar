@@ -1,0 +1,22 @@
+[
+    {
+        "idPremio": "1",
+        "cantidadDinero": 100000
+    },
+    {
+        "idPremio": "2",
+        "cantidadDinero": 500000
+    },
+    {
+        "idPremio": "3",
+        "cantidadDinero": 1000000
+    },
+    {
+        "idPremio": "4",
+        "cantidadDinero": 5000000
+    },
+    {
+        "idPremio": "5",
+        "cantidadDinero": 10000000
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "idPregunta": "1",   
+        "idDificultad": "1",
+        "idCategoria": "1",
+        "pregunta": "¿Cuál de los siguientes no es un Reino de los seres vivos?"
+
+    },
+    {
+        "idPregunta": "2",
+        "idDificultad": "1",
+        "idCategoria": "2",
+        "pregunta": "¿Cuál es el nombre del navegante al que se le atribuye 'El descubrimiento de América'?"
+
+    },
+    {
+        "idPregunta": "3",
+        "idDificultad": "1",
+        "idCategoria": "3",
+        "pregunta": "¿Cuál de las siguientes no es una operación aritmética básica?"
+
+    },
+    {
+        "idPregunta": "4",
+        "idDificultad": "1",
+        "idCategoria": "4",
+        "pregunta": "¿Cuál es la nacionalidad del escritor Gabriel García Márquez?"
+
+    },
+    {
+        "idPregunta": "5",
+        "idDificultad": "1",
+        "idCategoria": "5",
+        "pregunta": "¿Cuál de los siguientes deportes administra y regula la FIFA?"
+
+    },
+    {
+        "idPregunta": "6",
+        "idDificultad": "2",
+        "idCategoria": "1",
+        "pregunta": "¿En cuales grupos se dividen las células?"
+
+    },
+    {
+        "idPregunta": "7",
+        "idDificultad": "2",
+        "idCategoria": "2",
+        "pregunta": "'Extensión de tierra rodeada de agua por todas partes salvo por una, por donde está unida a un territorio de mayor tamaño', la anterior defición corresponde a:"
+
+    },
+    {
+        "idPregunta": "8",
+        "idDificultad": "2",
+        "idCategoria": "3",
+        "pregunta": "'El orden de los términos no altera el resultado final'. La anterior afirmación resume la propiedad:"
+
+    },
+    {
+        "idPregunta": "9",
+        "idDificultad": "2",
+        "idCategoria": "4",
+        "pregunta": "¿Cuál de los siguientes escritores es considerado una de las máximas figuras de la literatura española?"
+
+    },
+    {
+        "idPregunta": "10",
+        "idDificultad": "2",
+        "idCategoria": "5",
+        "pregunta": "En las competencias atléticas tipo decatlón, ¿Cuántas pruebas desempeñan los deportistas?"
+
+    },
+    {
+        "idPregunta": "11",
+        "idDificultad": "3",
+        "idCategoria": "1",
+        "pregunta": "El proceso mediante el cual se generan moléculas orgánicas a partir de sustancias inorgánicas usando como fuente de energía el sol es:"
+
+    },
+    {
+        "idPregunta": "12",
+        "idDificultad": "3",
+        "idCategoria": "2",
+        "pregunta": "¿Cuál de las siguientes se considera la causa detonante que desencadenó la Primera Guerra Mundial en 1914?"
+
+    },
+    {
+        "idPregunta": "13",
+        "idDificultad": "3",
+        "idCategoria": "3",
+        "pregunta": "¿Cuál es el resultado de X^2 + 3X^2?"
+
+    },
+    {
+        "idPregunta": "14",
+        "idDificultad": "3",
+        "idCategoria": "4",
+        "pregunta": "¿Quien es el escritor del libro 'Crimen y Castigo'?"
+
+    },
+    {
+        "idPregunta": "15",
+        "idDificultad": "3",
+        "idCategoria": "5",
+        "pregunta": "¿Cómo se llama el deporte en el cual se levantan pesas?"
+
+    },
+    {
+        "idPregunta": "16",
+        "idDificultad": "4",
+        "idCategoria": "1",
+        "pregunta": "El acróstico ADN, funcional en el estudio de la genética, ¿A cuál de los siguientes ácidos nucléicos hace referencia?"
+
+    },
+    {
+        "idPregunta": "17",
+        "idDificultad": "4",
+        "idCategoria": "2",
+        "pregunta": "¿Cuál de las siguientes es la fecha exacta de la reunión de los Estados Generales en el marco de la Revolución Francesa"
+
+    },
+    {
+        "idPregunta": "18",
+        "idDificultad": "4",
+        "idCategoria": "3",
+        "pregunta": ""
+
+    },
+    {
+        "idPregunta": "19",
+        "idDificultad": "4",
+        "idCategoria": "4",
+        "pregunta": "¿Cuál de los siguientes autores se considera precursor del movimiento Nadaísta en Latinoamérica?"
+
+    },
+    {
+        "idPregunta": "20",
+        "idDificultad": "4",
+        "idCategoria": "5",
+        "pregunta": "¿En dónde se inventó el tenis de mesa?"
+
+    },
+    {
+        "idPregunta": "21",
+        "idDificultad": "5",
+        "idCategoria": "1",
+        "pregunta": "¿?"
+
+    },
+    {
+        "idPregunta": "22",
+        "idDificultad": "5",
+        "idCategoria": "2",
+        "pregunta": ""
+
+    },
+    {
+        "idPregunta": "23",
+        "idDificultad": "5",
+        "idCategoria": "3",
+        "pregunta": ""
+
+    },
+    {
+        "idPregunta": "24",
+        "idDificultad": "5",
+        "idCategoria": "4",
+        "pregunta": ""
+
+    },
+    {
+        "idPregunta": "25",
+        "idDificultad": "5",
+        "idCategoria": "5",
+        "pregunta": ""
+
+    }
+
+]
