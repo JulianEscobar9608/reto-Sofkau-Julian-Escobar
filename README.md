@@ -13,3 +13,6 @@ Este es un proyecto construido con NodeJs y soportado bajo la librería de 'Expr
 4. Proceda a abrir el proyecto desde la ruta http://localhost:3050/
 
 
+# Información Técnica:
+
+## Hola
