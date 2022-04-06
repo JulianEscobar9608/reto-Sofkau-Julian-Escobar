@@ -1,4 +1,4 @@
-# reto-Sofkau-Julian-Escobar
+# Reto-Sofkau-Julian-Escobar
 
 Este es un proyecto construido con NodeJs y soportado bajo la librería de 'Express' como framework para gestionar peticiones desde el frontEnd. La aplicación funciona levantando un servidor local o 'Localhost' y consume datos desde multiples archivos con extensión .json que han sido debidamente distribuidos obedeciendo al patron de entidades. Para poder correr este proyecto atienda las siguientes recomendaciones:
 
