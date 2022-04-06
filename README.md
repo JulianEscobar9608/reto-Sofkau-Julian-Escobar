@@ -15,4 +15,6 @@ Este es un proyecto construido con NodeJs y soportado bajo la librería de 'Expr
 
 # Información Técnica:
 
-## Hola
+### Consideraciones de modelamiento:
+
+Este proyecto se modeló extrapolando el paradigma de Programación Orientada a Objetos (POO) al lenguaje javascript, y se utilizó el patrón de diseño Modelo-Vista-Controlador para distribuir las funcionalidades que permitan hacer el código escalable y mantenible
