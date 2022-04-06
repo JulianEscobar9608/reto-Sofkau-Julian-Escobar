@@ -143,35 +143,35 @@
         "idPregunta": "21",
         "idDificultad": "5",
         "idCategoria": "1",
-        "pregunta": "¿?"
+        "pregunta": "De la reacción de síntesis de sodio metálico sólido con cloro gaseoso¿Que se obtiene?"
 
     },
     {
         "idPregunta": "22",
         "idDificultad": "5",
         "idCategoria": "2",
-        "pregunta": ""
+        "pregunta": "¿A cuál especie de homínidos pertenece el esqueleto de Lucy?"
 
     },
     {
         "idPregunta": "23",
         "idDificultad": "5",
         "idCategoria": "3",
-        "pregunta": ""
+        "pregunta": "¿Cómo se opera el binomio cuadrado (a + b)^2?"
 
     },
     {
         "idPregunta": "24",
         "idDificultad": "5",
         "idCategoria": "4",
-        "pregunta": ""
+        "pregunta": "¿Qué autor noruego escribió la obra 'Casa de muñecas'?"
 
     },
     {
         "idPregunta": "25",
         "idDificultad": "5",
         "idCategoria": "5",
-        "pregunta": ""
+        "pregunta": "¿En qué país y en cual año ganó Alemania su primer Mundial?"
 
     }
 

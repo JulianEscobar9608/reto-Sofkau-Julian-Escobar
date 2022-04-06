@@ -141,37 +141,37 @@
     },
     {
         "idPregunta": "21",
-        "correcta": "Verde",
-        "incorrecta1": "Amarillo",
-        "incorrecta2": "Azul",
-        "incorrecta3": "Rojo"
+        "correcta": "Cloruro de sodio sólido",
+        "incorrecta1": "Cloruro de sodio gaseoso",
+        "incorrecta2": "Dióxido de cloro sodificado",
+        "incorrecta3": "Monosódico de base"
     },
     {
         "idPregunta": "22",
-        "correcta": "Verde",
-        "incorrecta1": "Amarillo",
-        "incorrecta2": "Azul",
-        "incorrecta3": "Rojo"
+        "correcta": "Australopithecus afarensis",
+        "incorrecta1": "Australopithecus pighmeo",
+        "incorrecta2": "Homo habilis",
+        "incorrecta3": "Australopithecus sapiens"
     },
     {
         "idPregunta": "23",
-        "correcta": "Verde",
-        "incorrecta1": "Amarillo",
-        "incorrecta2": "Azul",
-        "incorrecta3": "Rojo"
+        "correcta": "a^2 + (2 x a x b) + b^2",
+        "incorrecta1": "a^2 + b^2",
+        "incorrecta2": "(a+b)^2",
+        "incorrecta3": "2(a+b)^2"
     },
     {
         "idPregunta": "24",
-        "correcta": "Verde",
-        "incorrecta1": "Amarillo",
-        "incorrecta2": "Azul",
-        "incorrecta3": "Rojo"
+        "correcta": "Enrik Ibsen",
+        "incorrecta1": "Dimitri Lundegard",
+        "incorrecta2": "Ezequiel Andereck",
+        "incorrecta3": "Oscar Lange"
     },
     {
         "idPregunta": "25",
-        "correcta": "Verde",
-        "incorrecta1": "Amarillo",
-        "incorrecta2": "Azul",
-        "incorrecta3": "Rojo"
+        "correcta": "Suiza en 1954",
+        "incorrecta1": "Suiza en 1951",
+        "incorrecta2": "Italia en 1955",
+        "incorrecta3": "Alemania en 1974"
     }
 ]

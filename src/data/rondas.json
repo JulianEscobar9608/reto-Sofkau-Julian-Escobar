@@ -51,5 +51,104 @@
     "jugador": "julian",
     "estadoPartida": "Ganada",
     "cantidadGanada": "10000000"
+  },
+  {
+    "idRonda": 10,
+    "jugador": "Alos",
+    "estadoPartida": "Ganada",
+    "cantidadGanada": "10000000"
+  },
+  {
+    "idRonda": 11,
+    "jugador": "user",
+    "estadoPartida": "Perdida",
+    "cantidadGanada": "0"
+  },
+  {
+    "idRonda": 12,
+    "jugador": "user",
+    "estadoPartida": "Perdida",
+    "cantidadGanada": "0"
+  },
+  {
+    "idRonda": 13,
+    "jugador": "user",
+    "estadoPartida": "Perdida",
+    "cantidadGanada": "0"
+  },
+  {
+    "idRonda": 14,
+    "jugador": "nuevo",
+    "estadoPartida": "Ganada",
+    "cantidadGanada": "10000000"
+  },
+  {
+    "idRonda": 15,
+    "jugador": "nuevo",
+    "estadoPartida": "Retirado",
+    "cantidadGanada": 0
+  },
+  {
+    "idRonda": 16,
+    "jugador": "luisa",
+    "estadoPartida": "Retirado"
+  },
+  {
+    "idRonda": 17,
+    "jugador": "luisa",
+    "estadoPartida": "Perdida",
+    "cantidadGanada": "0"
+  },
+  {
+    "idRonda": 18,
+    "jugador": "luisa",
+    "estadoPartida": "Retirado",
+    "cantidadGanada": "1000000"
+  },
+  {
+    "idRonda": 19,
+    "jugador": "luisa",
+    "estadoPartida": "Retirado"
+  },
+  {
+    "idRonda": 20,
+    "jugador": "Alos",
+    "estadoPartida": "Retirado",
+    "cantidadGanada": 0
+  },
+  {
+    "idRonda": 21,
+    "jugador": "luisa",
+    "estadoPartida": "Retirado",
+    "cantidadGanada": "100000"
+  },
+  {
+    "idRonda": 22,
+    "jugador": "luisa",
+    "estadoPartida": "Retirado",
+    "cantidadGanada": "1000000"
+  },
+  {
+    "idRonda": 23,
+    "jugador": "luisa",
+    "estadoPartida": "Ganada",
+    "cantidadGanada": "10000000"
+  },
+  {
+    "idRonda": 24,
+    "jugador": "der",
+    "estadoPartida": "Retirado"
+  },
+  {
+    "idRonda": 25,
+    "jugador": "UsuarioPrueba",
+    "estadoPartida": "Retirado",
+    "cantidadGanada": "5000000"
+  },
+  {
+    "idRonda": 26,
+    "jugador": "UsuarioPrueba",
+    "estadoPartida": "Ganada",
+    "cantidadGanada": "10000000"
   }
 ]

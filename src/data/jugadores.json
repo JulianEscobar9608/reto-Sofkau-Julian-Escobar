@@ -4,19 +4,47 @@
     "nombreUsuario": "user",
     "ganadas": 1,
     "retiradas": 2,
-    "perdidas": 2
+    "perdidas": 5
   },
   {
     "idJugador": 2,
     "nombreUsuario": "UsuarioPrueba",
-    "ganadas": 0,
-    "retiradas": 0,
+    "ganadas": 1,
+    "retiradas": 1,
     "perdidas": 1
   },
   {
     "idJugador": 3,
     "nombreUsuario": "julian",
     "ganadas": 1,
+    "retiradas": 1,
+    "perdidas": 0
+  },
+  {
+    "idJugador": 4,
+    "nombreUsuario": "Alos",
+    "ganadas": 1,
+    "retiradas": 1,
+    "perdidas": 0
+  },
+  {
+    "idJugador": 5,
+    "nombreUsuario": "nuevo",
+    "ganadas": 1,
+    "retiradas": 1,
+    "perdidas": 0
+  },
+  {
+    "idJugador": 6,
+    "nombreUsuario": "luisa",
+    "ganadas": 1,
+    "retiradas": 5,
+    "perdidas": 1
+  },
+  {
+    "idJugador": 7,
+    "nombreUsuario": "der",
+    "ganadas": 0,
     "retiradas": 1,
     "perdidas": 0
   }
